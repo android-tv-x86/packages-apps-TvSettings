@@ -743,4 +743,13 @@
     <string name="picture_in_picture_app_detail_summary" msgid="3478182415601436326">"允许应用在您打开应用时或您离开应用后（例如继续观看视频）创建画中画窗口。这类窗口会显示在您当前使用的其他应用的上层。"</string>
     <string name="special_access" msgid="3513811566600299998">"特殊应用权限"</string>
     <string name="string_concat" msgid="5897947064488902904">"<xliff:g id="PART1">%1s</xliff:g>，<xliff:g id="PART2">%2s</xliff:g>"</string>
+
+    <string name="android_x86_options_title">"安卓X86设置"</string>
+    <string name="android_x86_dashboard_summary">兼容模式、统计</string>
+    <string name="nativebridge_toggle_title">"兼容模式"</string>
+    <string name="nativebridge_toggle_summary">"可兼容於使用 arm 庫的应用"</string>
+    <string name="collect_hw_info_title">收集匿名的硬件信息</string>
+    <string name="collect_hw_info_summary">收集本机的硬件信息并传送给 Android-x86 项目做统计</string>
+    <string name="collect_apps_usage_title">收集匿名的应用信息</string>
+    <string name="collect_apps_usage_summary">收集应用的开启信息并传送给 Android-x86 项目做统计</string>
 </resources>

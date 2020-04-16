@@ -1639,4 +1639,14 @@
 
     <!-- concat two strings, e.g. "Android Keyboard, My Pass" [CHAR LIMIT=NONE] -->
     <string name="string_concat"><xliff:g id="part1">%1s</xliff:g>, <xliff:g id="part2">%2s</xliff:g></string>
+
+    <!-- Android-x86 settings -->
+    <string name="android_x86_options_title">Android-x86 options</string>
+    <string name="android_x86_dashboard_summary">Native bridge, statistics</string>
+    <string name="nativebridge_toggle_title">Enable native bridge</string>
+    <string name="nativebridge_toggle_summary">To support apps with arm native libraries</string>
+    <string name="collect_hw_info_title">Collect anonymous hardware information</string>
+    <string name="collect_hw_info_summary">To collect the hardware information of this device and send to Android-x86 statistics</string>
+    <string name="collect_apps_usage_title">Collect anonymous apps usage</string>
+    <string name="collect_apps_usage_summary">To collect the apps usage information and send to Android-x86 statistics</string>
 </resources>

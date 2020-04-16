@@ -43,6 +43,11 @@
         android:key="sound_effects"
         android:title="@string/device_sound"/>
     <Preference
+        android:fragment="com.android.tv.settings.device.androidx86.AndroidX86Fragment"
+        android:icon="@drawable/ic_settings_applications"
+        android:key="androidx86_config"
+        android:title="@string/android_x86_options_title"/>
+    <Preference
         android:fragment="com.android.tv.settings.device.StorageSummaryFragment"
         android:icon="@drawable/ic_storage"
         android:key="storage"

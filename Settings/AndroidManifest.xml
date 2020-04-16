@@ -281,6 +281,23 @@
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".device.androidx86.AndroidX86Activity"
+            android:theme="@style/Theme.Settings.Transparent"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.settings.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".device.display.daydream.DaydreamActivity"
             android:theme="@style/Theme.Settings.Transparent"
@@ -653,6 +670,8 @@
                 <data android:scheme="package" />
             </intent-filter>
         </activity>
+
+
 
         <!-- Dummy intent filters for CTS TODO: implement something useful -->
         <activity android:name=".EmptyStubActivity"
